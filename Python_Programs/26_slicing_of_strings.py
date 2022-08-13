@@ -1,0 +1,22 @@
+s = 'abcdefghij'
+print(s[0:-14:-1])  # a
+print(s[0:-10:-1])  # empty
+print(s[1:-10:-1])  # b
+print(s[1:-11:-1])  # ba
+print(s[2:-10:-1])  # cb
+print(s[3:-10:-1])  # dcb
+print(s[0:-11:-1])  # a
+print(s[1:-2:-1])  # empty
+print(s[0:5:1])  # abcde
+print(s[5:0:1])  # empty
+print(s[10:-5:-1])  # jihg
+print(s[10:-1:-1])  # empty
+print(s[10:-2:-1])  # j
+print(s[9:-1:-1])  # empty
+print(s[9:-2:-1])  # j
+print(s[8:-2:-1])  # empty
+print(s[0:100:1])  # abcdefghi
+print(s[-4:1:-1])  # gfedc
+print(s[-4:1:-2])  # gec
+print(s[-4:1:1])  # empty
+print(s[0])
